@@ -5,7 +5,7 @@ subtitle: '总于搭了个自己的博客'
 date: 2018-09-27
 author: 加盐
 color: rgb(255,210,32)
-cover: '![20180927](D:\work\Blog\AddSalt8227.github.io\assets\20180927.jpg)'
+cover: '/assets/20180927.jpg'
 tags: blog github jekyll  
 typora-copy-images-to: ..\assets
 ---
