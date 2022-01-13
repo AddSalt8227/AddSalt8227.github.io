@@ -1,3 +1,12 @@
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?1906596f9bfc5ca139decb17a02e82f0";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>    
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,7 +18,7 @@
 <link rel="stylesheet" href="/assets/css/pygments/pygments_{{ site.pygmentsTheme }}.css">
 <link rel="stylesheet" href="/assets/css/github-markdown.css">
 <!-- SNS-icon -->
-<script src="/assets/fonts/sns/iconfont.js"></script>
+<script src="//at.alicdn.com/t/font_856428_y9z6nq7zf5.js"></script>
 <!-- share.css -->
 <link rel="stylesheet" href="/assets/css/share.min.css">
 <!-- font -->
@@ -37,12 +46,12 @@ var _hmt = _hmt || [];
 <!-- 谷歌分析 -->
 {% if site.google %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ google-ID }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google-ID }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{ google-ID }}');
+  gtag('config', '{{ site.google-ID }}');
 </script>
 {% endif %}

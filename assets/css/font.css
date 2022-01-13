@@ -89,3 +89,21 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+  font-family: "YaHei Consolas Hybrid";
+  src: url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.woff2") format("woff2"),
+       url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.woff") format("woff"),
+       url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.ttf") format("truetype"),
+       url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.eot") format("embedded-opentype"),
+       url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.svg") format("svg");
+}
+
+@font-face {
+  font-family: "DankMonoNormal";
+  src: url("../fonts/DankMonoNormal/DankMonoNormal.woff2") format("woff2"),
+       url("../fonts/DankMonoNormal/DankMonoNormal.woff") format("woff"),
+       url("../fonts/DankMonoNormal/DankMonoNormal.ttf") format("truetype"),
+       url("../fonts/DankMonoNormal/DankMonoNormal.eot") format("embedded-opentype"),
+       url("../fonts/DankMonoNormal/DankMonoNormal.svg") format("svg");
+}

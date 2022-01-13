@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'AddSalt.Blog'
-description: '做点东西自己玩'
-keywords: 'DIY'
+description: '每天进步一点点'
+keywords: '神经网络，边缘部署'
 url: 'https://AddSalt8227.github.io' # your host
 
 # nav 中文字符空格：&emsp;
@@ -14,30 +14,31 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 
 # 博主
 author: true
-name: '陈佳燕'
+name: '加盐'
 NickName: '加盐'
-webtitle: '加盐'
+webtitle: 'AddSalt.Blog'
 bio: 'hiahiahiahia~'
 about: true
-aboutyou: '一不小心大三了啊'
+aboutyou: '生活原本沉闷，但跑起来就会有风'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
-SNS-icon: #['facebook', 'weibo', 'QQ', 'github', 'Dribbble', 'twitter', 'instagram', 'weixin']
-  mail: 'chen_jiayan8227@outlook.com'
-  weixin: '' # your wechat image file path
-  QQ: '' # your QQ image file path
-  weibo: ''
-  instagram: ''
-  twitter: ''
-  github: ''
-  Dribbble: ''
-  facebook: ''
-  Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
+SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
+  mail: 'mailto:chen_jiayan8227@outlook.com'
+  # weixin: '' # 你的微信二维码存放的地址
+  # qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  # github: ''
+  # Codepen: ''
+  # weibo: ''
+  # instagram: ''
+  # Twitter: ''
+  # Dribbble: ''
+  # Facebook: ''
+  # Google: ''
+  # zhihu: ''
+  # juejin: ''
+  # twitch: ''
 
 # 分页
 paginate: 2
@@ -54,7 +55,7 @@ kramdown:
 # 代码高亮 使用rouge
 highlighter: rouge
 # 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
-pygmentsTheme: 'autumn'
+pygmentsTheme: 'tango'
 
 # 友情链接
 friends:
